@@ -7,10 +7,7 @@ on:
 
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true  # Required for FFmpeg installation
-  API: ${{ secrets.API}}
   TOKEN: ${{ secrets.TOKEN}}
-  GMAIL: ${{ secrets.GMAIL}}
-  PASS: ${{ secrets.PASS}}
 
 jobs:
   scrape-latest:
